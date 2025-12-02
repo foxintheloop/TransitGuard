@@ -4,7 +4,7 @@
 
 TransitGuard is an AI-powered platform that predicts safety incidents across the Chicago Transit Authority (CTA) system. Built as a capstone project for Northwestern University's MS in Data Science program.
 
-![TransitGuard Dashboard](assets/dashboard-screenshot.png)
+![TransitGuard Dashboard](assets/transitguard-dashboard.png)
 
 ## The Problem
 
