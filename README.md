@@ -54,7 +54,7 @@ All data from the [City of Chicago Data Portal](https://data.cityofchicago.org/)
 Built by a 5-person team at Northwestern University (MSDS 498 Capstone, 2025):
 
 - Kevin Ou — Dashboards, GenAI
-- **Derek Plemons** — GenAI Development, Modeling
+- **Derek Plemons** — GenAI Development, App Development, Modeling
 - Sergio Valentini — App Development, Modeling
 - Summer Xia — Data Cleaning, Visualization, Modeling
 - Sophie Xiao — Data Cleaning, Visualization
