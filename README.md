@@ -20,8 +20,19 @@ TransitGuard shifts from reactive to predictive. We analyzed 50,000+ CTA-related
 |-----------|-------------|------|
 | **Dashboard** | Real-time safety metrics and hotspot visualization | [transitguard-dashboard](https://github.com/foxintheloop/transitguard-dashboard) |
 | **Mobile App** | SMS/push alerts for riders and dispatchers | [transitguard-app](https://github.com/foxintheloop/transitguard-app) |
-| **GenAI Chatbot** | Natural language safety queries by location/time | Integrated |
+| **RAG API** | GenAI chatbot backend — Pinecone + Claude for natural language safety queries | [TransitGuardRAG](https://github.com/foxintheloop/TransitGuardRAG) |
 | **Predictive Models** | XGBoost, Logistic Regression, time series forecasting | Integrated |
+
+### RAG Chatbot Capabilities
+
+The TransitGuardRAG API powers natural language queries about CTA safety:
+
+- *"What are the stations near me?"*
+- *"Total number of crimes today"*
+- *"Safest line in the last 7 days"*
+- *"Total number of traffic accidents today"*
+
+Built with FastAPI, Pinecone vector search, and Claude Haiku 3 for answer generation. Deployed on Railway.
 
 ## Key Findings
 
@@ -37,7 +48,7 @@ TransitGuard shifts from reactive to predictive. We analyzed 50,000+ CTA-related
 | Identify hotspots | DBSCAN spatial clustering, KDE |
 | Predict incidents | XGBoost, Logistic Regression, time series forecasting |
 | Segment risk zones | ZIP code and community area aggregation |
-| Surface insights | Real-time dashboard, GenAI chatbot, mobile alerts |
+| Surface insights | Real-time dashboard, RAG chatbot, mobile alerts |
 
 ## Data Sources
 
@@ -61,7 +72,7 @@ Built by a 5-person team at Northwestern University (MSDS 498 Capstone, 2025):
 
 ## Stack
 
-`Python` `XGBoost` `scikit-learn` `Pandas` `Folium` `Streamlit` `React Native`
+`Python` `XGBoost` `scikit-learn` `Pandas` `Folium` `Streamlit` `React Native` `FastAPI` `Pinecone` `Claude API`
 
 ## License
 
